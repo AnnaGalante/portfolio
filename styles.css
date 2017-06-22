@@ -1,0 +1,35 @@
+/* Core Styles *****/
+body{
+	font-family: 'EB Garamond', serif;
+	font-weight: 300;
+}
+
+.primary{
+	background-color: #4f4661;
+	color: #fff;
+}
+.secondary{
+	text-align: center;
+}
+
+/* Typography ******/
+h1{
+	font-size: 55px;
+}
+h2{
+	font-size: 28px;
+	line-height: 1.25;
+}
+h3{
+	font-size: 20px;
+	line-height: 1.25;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+
+/* Specific Content Blocks ******/
+#hero{
+	padding-top: 300px;
+}
