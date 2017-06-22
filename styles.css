@@ -1,17 +1,24 @@
 /* Core Styles *****/
 body{
-	font-family: 'EB Garamond', serif;
+	font-family: 'Libre Baskerville', serif;
 	font-weight: normal
-	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 .primary{
-	background-color: #4f4661;
-	color: #fff;
+	background-color: #f4f4f4;
+	color: #373737;
 }
 .secondary{
 	text-align: center;
+	color: #373737;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 
 /* Typography ******/
@@ -23,6 +30,7 @@ h1{
 h2{
 	font-size: 28px;
 	font-weight: lighter;
+	line-height: .5;
 }
 h3{
 	font-size: 20px;
@@ -31,14 +39,32 @@ h3{
 }
 p{
 	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 200;
 }
 li{
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 }
 
+a:hover {
+	color: #C0B283;
+}
+
 /* Specific Content Blocks ******/
 #hero{
-	padding-top: 300px;
+	padding-top: 280px;
+	padding-bottom: 60px;
+}
+#expertise{
+	padding: 20px;
+}
+.socialMedia{
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.description{
+
 }
