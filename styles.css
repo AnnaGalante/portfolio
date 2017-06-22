@@ -1,0 +1,33 @@
+/* Core Styles *****/
+body{
+	font-family: 'Crimson Text', serif;
+	font-weight: 300;
+}
+
+.primary{
+	background-color: #4f4661;
+	color: #fff;
+}
+.secondary{
+	text-align: center;
+}
+
+/* Typography ******/
+h1{
+	font-size: 64px;
+}
+h2{
+	font-size: 32px;
+}
+h3{
+	font-size: 24px;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+/* Specific Content Blocks ******/
+.hero{
+	padding-top: 320px;
+}
