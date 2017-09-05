@@ -34,7 +34,7 @@ h1{
 	margin: 0px;
 }
 h2{
-	font-size: 36px;
+	font-size: 38px;
 	font-weight: 700;
 	line-height: 1.2;
 	margin: 0px;
@@ -62,7 +62,8 @@ p{
 li{
 	font-family: 'Fauna One', serif;
 	font-size: 14px;
-	text-decoration: none;
+	line-height: 2;
+	list-style-type: none;
 }
 
 a{
@@ -104,13 +105,8 @@ a:hover {
 	background-color: #373737;
 	background-size: cover;
 	display: flex;
-	/* Slanted edge- webkit only support currently*/
-  	clip-path: polygon(
-    	0 0, /* left top */
-    	100% 0, /* right top */ 
-    	100% 100%, /* right bottom */
-    	0 95% /* left bottom */
-  	);
+	/* angled edge- no IE support*/
+  	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
 }
 
 .heroText{
@@ -138,27 +134,44 @@ a:hover {
 	padding: 70px 0px 40px 0px;
 }
 
+#projects .row{
+	margin-bottom: 36px;
+}
+
 .individualProject img {
 	width: 390px;
 	height: 255px;
-	object-fit: contain;
+	object-fit: cover;
 	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
 	margin-bottom: 15px;
 }
 
-
 /* Expertise ******************/
 
 #expertise{
-	padding: 20px;
-}
-
-/* Hero **********************/
-.socialMedia{
-	font-size: 14px;
-	font-family: 'Fauna One', serif;
-}
-
-.description{
+	padding: 60px; /*padding large to account for angles */
+	-webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+	clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
 
 }
+
+/* Contact **********************/
+#socialMedia{
+	margin: 30px 0px 30px 0px;
+}
+#emailAddress{
+	padding: 28px 0px 28px 0px;
+	font-size: 22px;
+}
+
+.contactIcons a{
+	font-size: 38px;
+	color: #373737;
+	text-decoration: none;
+	word-spacing: 50px;
+}
+
+.contactIcons a:hover{
+	color: #c0b283;
+}
+
